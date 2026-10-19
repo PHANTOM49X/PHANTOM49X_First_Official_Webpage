@@ -1,0 +1,93 @@
+body{
+  background-color:silver;
+}
+nav ul{
+  list-style-type:none;
+  padding: 0px;
+}
+nav li{
+  display:inline-block;
+  margin-right:20px;
+  }
+li:first-child{
+  margin-left:0px;
+}
+a{
+  color:red;
+  font-weight: bold;
+  font-size:16px;
+  text-transform:capitalize;
+  text-decoration: none;
+}
+header .logo {
+  Background-image:url("Images/store-image.png");
+  background-size:80px;
+  background-repeat:no-repeat;
+  margin-top:3px;
+  Width:80px;
+  height:40px;
+  display:inline-block;
+  text-indent:-988px;
+  position:relative;
+  Top:-7px;
+  
+}
+a:hover{
+  text-decoration:underline;
+  background:red;
+}
+/*a.confess{
+  color:black
+}*/
+header{
+  background-color:black;
+  background-image:url("Images/Background.png");
+  background-size:100%;
+  background-position:center;
+  background-repeat:no-repeat;
+  height:300px;
+  padding-top:5px;
+  text-align:center;
+  }
+h1{
+  color:white;
+  }
+section{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  /*justify-content:center;
+  align-items:center;
+  min-height:1vh;*/
+}
+section.divi figure img{
+  border:1px solid black;
+  border-radius:50%;
+  box-shadow:grey 0px 0px 20px;
+  width:200px;
+  height:200px;
+}
+section.divi figure{
+  width:200px;
+  color:indigo;
+  background-color:none;
+  text-transform:uppercase;
+  text-align:center;
+  font-weight:Bold;
+  margin: auto;
+}
+
+Footer{
+  background-color:green;
+  text-align:center;
+  Color:black;
+  padding:16px;
+  font-size:large;
+  font-weight:bold;
+  font-family:serif;
+  }
+@media screen and (max-width:600px) {
+  footer{
+    background:gold;
+  }
+}
